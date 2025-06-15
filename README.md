@@ -6,13 +6,14 @@
 
 ## 🧠 Overview
 
-With the rise of AI-generated voice cloning and misinformation, detecting deepfake audio has become critical. DeepShield is an audio deepfake detection tool that uses machine learning and explainable AI to:
+With the rise of AI-generated voice cloning and misinformation, detecting deepfake audio has become critical. **DeepShield** is an advanced audio deepfake detection tool that leverages machine learning and explainable AI techniques to ensure robust and transparent analysis.
 
-- 🎯 Classify whether an uploaded audio is real or fake  
-- 🧠 Highlight which parts of the audio led to the decision  
-- 📜 Provide human-readable explanations using SHAP values
+It is designed to:
 
----
+🎯 **Classify** whether an uploaded audio file is **real or fake**  
+🧩 **Analyze audio in 10-second chunks** to catch even subtle deepfake segments — a single fake chunk flags the entire file  
+📜 **Provide human-readable explanations** using SHAP values, so users can understand why a decision was made
+
 
 ## ✅ Features
 
