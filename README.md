@@ -123,7 +123,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-###⚠️ Note: Make sure to set the path to your local `ffmpeg.exe` for `pydub` to function correctly. Example:
+### ⚠️ Note: Make sure to set the path to your local `ffmpeg.exe` for `pydub` to function correctly. Example:
 ```python
  from pydub import AudioSegment  
  AudioSegment.converter = "C:/ffmpeg/bin/ffmpeg.exe"
