@@ -67,14 +67,21 @@ With the rise of AI-generated voice cloning and misinformation, detecting deepfa
 
 ## 📁 Dataset Structure
 
-Your training data should include both:
+This project uses a combination of:
 
-- ✅ Real human speech samples  
-- ❌ Deepfake audio samples (e.g., generated using tools like Voicebox, Tacotron, or StyleGAN)
+- ✅ **Real human speech samples**  
+- ❌ **Deepfake audio samples** generated using tools like **Voicebox**, **Tacotron**, and **StyleGAN**
 
-Preprocessed into NumPy arrays or compatible formats for training.
+🎧 **Used Dataset:**  
+We used a custom-curated dataset combining samples from publicly available voice cloning repositories and synthetic datasets.
+
+📦 **Download Dataset**:  
+[🔗 Click here to download the DeepShield Audio Dataset]([https://example.com/deepshield-audio-dataset.zip](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset)) 
+
+🧹 All audio files are preprocessed into consistent 10-second chunks and stored as NumPy arrays (`.npy`) or `.wav` files, ready for training.
 
 ---
+
 
 ## 🧪 How It Works
 
