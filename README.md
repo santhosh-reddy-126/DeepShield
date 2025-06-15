@@ -77,7 +77,7 @@ This project uses a combination of:
 We used a custom-curated dataset combining samples from publicly available voice cloning repositories and synthetic datasets.
 
 📦 **Download Dataset**:  
-[🔗 Click here to download the DeepShield Audio Dataset]([https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset]) 
+[🔗 https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset] 
 
 🧹 All audio files are preprocessed into consistent 10-second chunks and stored as NumPy arrays (`.npy`) or `.wav` files, ready for training.
 
