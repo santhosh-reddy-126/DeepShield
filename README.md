@@ -109,3 +109,81 @@ MFCC_5: Subtle timbral differences → High value suggests synthetic voice patte
 MFCC_36: Inter-harmonic spacing variation → High value suggests unnatural modulation
 
 MFCC_17: Rapid spectral slope fluctuations → Low value suggests natural speech
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/yourusername/deepshield-audio-deepfake.git   
+cd deepshield-audio-deepfake
+pip install -r requirements.txt
+```
+
+## Running the app
+```bash
+streamlit run app.py
+```
+
+###⚠️ Note: Make sure to set the path to your local `ffmpeg.exe` for `pydub` to function correctly. Example:
+```python
+ from pydub import AudioSegment  
+ AudioSegment.converter = "C:/ffmpeg/bin/ffmpeg.exe"
+```
+
+
+
+## 📚 Feature Dictionary
+
+| Feature Group        | Count | Description                                         |
+|----------------------|-------|-----------------------------------------------------|
+| **MFCC**             | 40    | Loudness, Pitch, Formants, Harmonics               |
+| **Chroma**           | 12    | Pitch class energy, prosody indicators             |
+| **Spectral Contrast**| 7     | Peak vs valley energy across frequency bands       |
+| **Tonnetz**          | 6     | Tonal structure and key clarity                    |
+| **ZCR**              | 1     | Unvoiced or noisy segments                         |
+| **RMSE**             | 1     | Short-term loudness patterns                       |
+
+🔍 You can find the full mapping in the code under `mfcc_meanings`.
+
+---
+
+## 📷 Screenshots
+
+📸 Include screenshots of:
+
+- ✅ Streamlit UI  
+- ✅ SHAP force plots  
+- ✅ Bar chart of feature contributions  
+- ✅ Final prediction output  
+
+---
+
+## 📌 Future Enhancements (Optional)
+
+- 📥 Add batch processing mode  
+- 📼 Add video deepfake detection (multi-modal)  
+- 📄 Export report (PDF/HTML)  
+- 🌐 Deploy on Streamlit Cloud or Hugging Face Spaces  
+
+---
+
+## 🙌 Acknowledgements
+
+- **Librosa** – Audio analysis library  
+- **SHAP** – For model explainability  
+- **Streamlit** – For rapid web UI development  
+- **FFmpeg** – For audio conversion  
+
+---
+
+## 📄 License
+
+MIT License – see `LICENSE` for details.
+
+---
+
+## 📬 Contact
+
+If you have questions, want to contribute, or need help adapting this model:
+
+- 📧 **Email**: santhoshbeeram19@gmail.com  
+
