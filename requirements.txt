@@ -1,5 +1,5 @@
 streamlit
-tensorflow
+tensorflow-cpu==2.13.0
 numpy
 pandas
 librosa
@@ -8,3 +8,4 @@ shap
 scikit-learn
 matplotlib
 seaborn
+ffmpeg-python
