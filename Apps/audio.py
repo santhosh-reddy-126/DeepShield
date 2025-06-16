@@ -16,7 +16,6 @@ log_model = joblib.load(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\lo
 log_scaler = joblib.load(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\log_audio_scaler.pkl")
 cnn_scaler = joblib.load(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\cnn_audio_scaler.pkl")
 
-AudioSegment.converter = r"C:\Users\ashritha reddy\Documents\Crex\ffmpeg-7.0.2-full_build\bin\ffmpeg.exe"
 
 explainer_lr = shap.LinearExplainer(log_model, X_train_log)
 explainer_cnn = shap.DeepExplainer(model, X_train_cnn)
