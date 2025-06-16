@@ -9,12 +9,12 @@ import os
 from tensorflow.keras.models import load_model
 import pandas as pd
 
-X_train_cnn = joblib.load(r"C:\Users\ashritha reddy\Downloads\X_train_cnn.pkl")
-X_train_log = joblib.load(r"C:\Users\ashritha reddy\Downloads\X_train_log.pkl")
-model = load_model(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\cnn_audio_model.keras")
-log_model = joblib.load(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\log_audio_model.pkl")
-log_scaler = joblib.load(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\log_audio_scaler.pkl")
-cnn_scaler = joblib.load(r"C:\Users\ashritha reddy\Documents\DeepShield\Models\cnn_audio_scaler.pkl")
+X_train_cnn = joblib.load(r"../Models/X_train_cnn.pkl")
+X_train_log = joblib.load(r"../Models/X_train_log.pkl")
+model = load_model(r"../Models/cnn_audio_model.keras")
+log_model = joblib.load(r"../Models/log_audio_model.pkl")
+log_scaler = joblib.load(r"../Models/log_audio_scaler.pkl")
+cnn_scaler = joblib.load(r"../Models/cnn_audio_scaler.pkl")
 
 
 explainer_lr = shap.LinearExplainer(log_model, X_train_log)
