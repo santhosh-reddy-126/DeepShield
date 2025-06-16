@@ -157,9 +157,9 @@ streamlit run audio.py
 ## 📷 Screenshots
 
 - ![✅ Streamlit UI](Screenshots/img1.png)
-- ![✅ SHAP force plots](Screenshots/img1.png)
-- ![✅ Bar chart of feature contributions](Screenshots/img1.png)
-- ![✅ Final prediction output with plain English summary](Screenshots/img1.png)
+- ![✅ SHAP force plots](Screenshots/img2.png)
+- ![✅ Bar chart of feature contributions](Screenshots/img3.png)
+- ![✅ Final prediction output with plain English summary](Screenshots/img4.png)
 ---
 
 ## 📌 Future Enhancements (Optional)
