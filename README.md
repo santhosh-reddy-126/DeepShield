@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 ## Running the app
 ```bash
-streamlit run app.py
+streamlit run audio.py
 ```
 
 ### ⚠️ Note: Make sure to set the path to your local `ffmpeg.exe` for `pydub` to function correctly. Example:
@@ -158,7 +158,8 @@ streamlit run app.py
 
 📸 Include screenshots of:
 
-- ✅ Streamlit UI  
+- ![✅ Streamlit UI](Screenshots/img1.png)
+
 - ✅ SHAP force plots  
 - ✅ Bar chart of feature contributions  
 - ✅ Final prediction output  
@@ -180,12 +181,6 @@ streamlit run app.py
 - **SHAP** – For model explainability  
 - **Streamlit** – For rapid web UI development  
 - **FFmpeg** – For audio conversion  
-
----
-
-## 📄 License
-
-MIT License – see `LICENSE` for details.
 
 ---
 
