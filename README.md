@@ -47,9 +47,6 @@ It is designed to:
 - 📊 **Bar Chart**  
   Shows top N most influential features
 
-- 🕰️ **Time Frame Mapping**  
-  Maps SHAP values back to real time segments
-
 ---
 
 ## 🛠️ Technologies Used
